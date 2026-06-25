@@ -16,6 +16,18 @@
   --border: #dee2e6;
   --radius: 12px;
   --shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+  /* Brazil / stadium accents (used by the World Cup stats page) */
+  --brazil-yellow: #ffdf00;
+  --brazil-green: #009739;
+  --brazil-blue: #012169;
+  --night-900: #070b14;
+  --night-800: #0d1424;
+  --night-700: #131c30;
+  --night-600: #1c2740;
+  --night-line: rgba(255, 255, 255, 0.08);
+  --night-text: #e8edf6;
+  --night-muted: #93a0b8;
 }
 
 body {

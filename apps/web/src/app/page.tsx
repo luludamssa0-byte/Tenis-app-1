@@ -12,7 +12,7 @@ export default function Home() {
         </p>
         <div className={styles.actions}>
           <Link href="/dashboard" className={styles.btnPrimary}>Acessar Dashboard</Link>
-          <Link href="/auth/signup" className={styles.btnSecondary}>Criar conta</Link>
+          <Link href="/copa" className={styles.btnSecondary}>🇧🇷 Brasil na Copa 2026</Link>
         </div>
       </div>
 
