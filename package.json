@@ -1,0 +1,19 @@
+{
+  "name": "tenis-app-1",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "pnpm --filter web test",
+    "lint": "pnpm --filter web lint"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
