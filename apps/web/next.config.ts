@@ -1,7 +1,5 @@
 import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
-  transpilePackages: ['ui', 'db', 'api'],
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
